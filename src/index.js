@@ -24,7 +24,7 @@ function startServer() {
     else res.send(body);
   });
 
-  app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+    app.listen(port, () => console.log("Ready;"));
 }
 
 startServer();
